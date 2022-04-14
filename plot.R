@@ -61,7 +61,8 @@ grafico <- dados |>
         text = ggplot2::element_text(family = "Star Jedi", color = "yellow"),
         # Ajustar posição e cor do título
         plot.title = ggplot2::element_text(
-            family = "Star Jedi", color = "yellow", hjust = 0.5
+            family = "Star Jedi", color = "yellow",
+            hjust = 0.5, size = 32
         ),
         # Ajustar posição e cor do subtítulo
         plot.subtitle = ggplot2::element_text(
